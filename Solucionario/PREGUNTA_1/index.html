@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="dom.js"></script>
+</head>
+<body>
+<h2>PREGUNTA 1</h2>
+<p>Analizar una cadena de texto en un objeto DOM XML y extraer esa Informacion con JavaScript</p>
+<script>
+xmlDoc=loadXMLDoc("datos_estudiantes.xml");
+for (i = 0; i <100; i++) { 
+document.write(xmlDoc.getElementsByTagName("NOMBRE")[i].childNodes[0].nodeValue + "<br>");
+document.write(xmlDoc.getElementsByTagName("APELLIDO")[i].childNodes[0].nodeValue + "<br>");
+}
+</script>
+</body>
+</html>

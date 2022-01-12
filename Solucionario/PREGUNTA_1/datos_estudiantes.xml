@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ESTUDIANTE>
+<DATOS>
+<NOMBRE>David</NOMBRE>
+<APELLIDO>Tamayo</APELLIDO>
+<MAIL>datamayo4@espe.edu.ec</MAIL>
+<UNIVERSIDAD>ESPE</UNIVERSIDAD>
+<EDAD>22</EDAD>
+</DATOS>
+<DATOS>
+<NOMBRE>Mateo</NOMBRE>
+<APELLIDO>Quintanilla</APELLIDO>
+<MAIL>maquintanilla@espe.edu.ec</MAIL>
+<UNIVERSIDAD>ESPE</UNIVERSIDAD>
+<EDAD>20</EDAD>
+</DATOS>
+<DATOS>
+<NOMBRE>Amy</NOMBRE>
+<APELLIDO>Sánchez</APELLIDO>
+<MAIL>arsanchez@espe.edu.ec</MAIL>
+<UNIVERSIDAD>ESPE</UNIVERSIDAD>
+<EDAD>20</EDAD>
+</DATOS>
+</ESTUDIANTE>
