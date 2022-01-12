@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Pregunta 3</h1>
+<h2>Convertir de String a un objeto de tipo Date</h2>
+
+<p id="demo"></p>
+
+<script>
+const text = '{"name":"David", "birth":"1999-12-20", "city":"Quito"}';
+const obj = JSON.parse(text, function (key, value) {
+  if (key == "birth") {
+    return new Date(value);
+  } else {
+    return value;
+  }
+});
+document.getElementById("demo").innerHTML = "Fecha de nacimiento: "+ obj.birth; 
+</script>
+
+</body>
+</html>
